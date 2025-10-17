@@ -1,3 +1,8 @@
 the sum is  7
 
 nice try diddy
+ this is appended text from Append_in_file.js
+  n
+ this is appended text from Append_in_file.js 
+ nice try diddy 
+ nice try diddy
