@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/LOVENISH87/express#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "ls": "^0.2.1"

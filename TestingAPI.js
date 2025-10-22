@@ -28,11 +28,20 @@
 // })
 import express from 'express'
 import fs from 'fs'
-
+import cors from 'cors';
 const app = express()
 
 // read JSON manually
 const data = JSON.parse(fs.readFileSync('./data.json', 'utf-8'))
+
+const corsOptions = {
+  origin: "http://localhost:5173", // or "http://localhost:3000" if using CRA
+  methods: "GET,POST,PUT,DELETE",
+  credentials: true, // if you ever send cookies
+}; 
+// app.use(cors())
+app.use(cors(corsOptions));
+
 
 app.get("/" , (req, resp) => {
     const info = `<ul>  
@@ -53,7 +62,6 @@ app.get("/" , (req, resp) => {
 // })
 
 
-
 app.get('/api/data/:id', (req, resp) => {
     const id = Number(req.params.id)
     const users = data.find((some) =>some.id === id)
@@ -71,7 +79,7 @@ app.patch('/api/data/:id', (req,resp) => {
   return resp.json({status : "noting till now!!!"})
 })
 
-app.delete('/api/')
+// app.delete('/api/')
 
 app.listen(4800, () => {
   console.log('Server running on 4800')

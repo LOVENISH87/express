@@ -51,10 +51,45 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 3021.215361632043,
-			"y": 1513.564775855893,
-			"lastActivityTimestamp": 1760690248496,
+			"x": 1310.7332633568308,
+			"y": 2715.30937954428,
+			"lastActivityTimestamp": 1761038766322,
 			"meta": {}
+		},
+		{
+			"x": 739.2382687157174,
+			"y": 2638.2269057893973,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:PTcA1_VjClBa5xeBb2qio",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aANn7U6G",
+			"typeName": "shape"
 		},
 		{
 			"x": 119.16666412353516,
@@ -159,9 +194,9 @@
 			"typeName": "binding"
 		},
 		{
-			"x": 1552.8990265052762,
-			"y": 586.4667130903294,
-			"z": 0.18714005102714149,
+			"x": -487.7332633568307,
+			"y": -1957.30937954428,
+			"z": 1,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -206,10 +241,10 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:DHtUvSxwazOjhmcr0fO6V",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:ELCNlNwweKaNuayETJSPJ"
+				"shape:DHtUvSxwazOjhmcr0fO6V"
 			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
@@ -280,6 +315,41 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 739.2382687157174,
+			"y": 2638.2269057893973,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:glk2Imr1lwhUNCRpAqVlJ",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a9uX2Url",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "binding:r3gQLcdnxaoJAckMPtmTi",
 			"type": "arrow",
@@ -296,6 +366,45 @@
 				"terminal": "end"
 			},
 			"typeName": "binding"
+		},
+		{
+			"x": 719.6182643089787,
+			"y": 2625.536975680756,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:DHtUvSxwazOjhmcr0fO6V",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 955.6300659179688,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "so how would i convert the json data to something readable can you tell me"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a8MFrtaV",
+			"typeName": "shape"
 		},
 		{
 			"x": 381.1138261072,
@@ -352,8 +461,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1043,
-				"h": 631
+				"w": 1208.1600341796875,
+				"h": 1172.1600341796875
 			},
 			"insets": [
 				false,
@@ -368,7 +477,7 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 1,
+			"devicePixelRatio": 0.6944444179534912,
 			"isCoarsePointer": false,
 			"isHoveringCanvas": true,
 			"openMenus": [],
@@ -379,6 +488,41 @@
 			"id": "instance:instance",
 			"currentPageId": "page:page",
 			"typeName": "instance"
+		},
+		{
+			"x": 685.0582057152287,
+			"y": 2641.7369764436953,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:l79pxpTRPMTw1Prw87fjU",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a7BB4KQV",
+			"typeName": "shape"
 		},
 		{
 			"x": 257.1500281139529,
