@@ -1,3 +1,5 @@
+import fetch from 'node-fetch';
+
 function loginUser(username , password){
     console.log("looking for cerds")
     return new Promise((res, rej)=>{
@@ -65,3 +67,26 @@ test()
 
 // api example
 
+
+
+async function commentData() {
+
+    try {
+        
+  
+    console.log('fetch data')
+    const rest = await fetch('https://jsonplaceholder.typicode.com/comments/')
+    const data =  await rest.json();
+
+   const sol =  data.map((i) => {i.name})
+    // console.log("data is as: ", data )   
+    console.log(sol)     
+    }    
+
+       catch (err){
+        console.log(err)
+       }
+
+}
+
+commentData()
