@@ -9,20 +9,17 @@ import fs from 'fs'
 const app = express()
 
 
-app.get('/',(req, resp) => {
-    // resp.end(`<h1>this is home page you wanna get to the data use the /api/:id thing thath will take you to dynamic route </h1>`)
-    return resp.send(data)
+app.get('/', (req,resp) =>{
+    resp.send("this is bs man!!!");
+})
+app.get('/form' , (Req,resp) =>{
+    resp.sendFile(process.cmd() + '/form.html')
 })
 
-// app.route('/api/:id').get( (req, resp) => {
-//     resp.end(`<h1>this is home page you wanna get to the data use the /api/:id thing thath will take you to dynamic route </h1>`)
-// }).post((req, resp) => {
-//     return resp.end("this is patch route man !!!! using /api/:id")
-// })
-//     // return resp.json('winder')
-    
-
-
+app.post('/submit' , (req, resp)=> {
+    const name = req.body.name
+    resp.send(`form is recieved from ${name}`)
+})
 
 app.listen(4800 , () =>{
     console.log("server is running on port -> 4800")
