@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/LOVENISH87/express#readme",
   "dependencies": {
+    "cookie": "^1.1.1",
     "cookie-parser": "^1.4.7",
     "cookie-session": "^2.1.1",
     "cors": "^2.8.5",
