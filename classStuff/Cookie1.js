@@ -15,7 +15,7 @@ app.get('/set' , (req, resp) =>{
 })
 
 app.get('/get' , (Req, resp) => {
-    resp.send(`cookie value  , ${req,cookies.user}`);
+    .send(`cookie value  , ${req,cookies.user}`);
 
 
 })

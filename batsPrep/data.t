@@ -1,0 +1,1 @@
+file:///home/k/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js
